@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: rgb(5, 182, 13);
+  margin: 50px auto;
+  width: 800px;
+  height: 180px;
+}
+.content {
+  display: flex;
+  color: #fff;
+  width: auto;
+}
+div {
+  width: 30%;
+  margin: 20px;
+}
+div p:nth-child(1) {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+ul {
+  margin-left: 40px;
+}
+.icon {
+  display: flex;
+}
+.fa-brands {
+  font-size: 30px;
+  margin-right: 10px;
+}
